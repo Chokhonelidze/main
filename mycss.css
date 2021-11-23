@@ -1,8 +1,15 @@
-.myimage{
-    width:1000px;
-    height:1000px;
-    /*transform: rotate(270deg);*/
+
+.body {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr ;
+    grid-template-rows:  1fr 6fr 2fr;
 }
-.text{
-    color:blue;
+.title {
+    grid-column: 2;
+    grid-row: 1;
+}
+.image {
+    grid-column: 2;
+    grid-row: 1;
+    
 }
