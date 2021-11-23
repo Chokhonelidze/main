@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: "YujiMai";
-    src: "YujiMai-Regular.ttf";
+    src: url(YujiMai-Regular.ttf);
 }
 body {
     font-family:'YujiMai';
