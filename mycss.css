@@ -1,0 +1,8 @@
+.myimage{
+    width:1000px;
+    height:1000px;
+    /*transform: rotate(270deg);*/
+}
+.text{
+    color:blue;
+}
