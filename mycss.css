@@ -53,3 +53,20 @@ body {
     width:50px;
     height:50px;
 }
+@media screen and (max-width: 700px) {
+    .image{
+        grid-column: 1/5;
+        grid-row: 2;
+    }
+    .about{
+        grid-column: 2/4;
+        grid-row:3;
+    }
+    .links{
+        display: none;
+    }
+    .contact {
+        grid-column: 2;
+        grid-row: 4;
+    }
+}
