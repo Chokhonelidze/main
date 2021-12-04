@@ -54,6 +54,9 @@ body {
     height:50px;
 }
 @media screen and (max-width: 1000px) {
+    body {
+        grid-template-rows: 250px 1000px;
+    }
     .image{
         grid-column: 1/5;
         grid-row: 2;
