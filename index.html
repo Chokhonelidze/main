@@ -9,32 +9,11 @@
     <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="mycss.css">
+    <script src="nav.js"></script>
 </head>
 
 <body>
     <div class='header'>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="navbar-nav">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" >About Me </a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link" href='https://chokhonelidze.github.io/PacMen/' >PacMen Arena </a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link" href='https://chokhonelidze.github.io/Eyes/' >Watching Eyes</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link" href='  https://chokhonelidze.github.io/mapbox/' >Map project</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link" href='https://chokhonelidze.github.io/permutations/' >Permutations</a>
-                  </li>
-                
-                </ul>
-             </div>
-        </nav>
     </div>
     <div class='main'>
     <div class='body'>
@@ -72,6 +51,9 @@
         </div>
     </div>
 </div>
+<script>
+    let elem = document.getElementsByClassName('header')[0];
+    buildNav(elem,"About Me");
+</script>
 </body>
-
 </html>
