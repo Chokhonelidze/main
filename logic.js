@@ -15,7 +15,7 @@ const links = [
         title:"Map project",
         img:"https://cdn.dribbble.com/users/126602/screenshots/3446916/media/fa9d65d20dda60f127735ae820e8ae8e.jpg?compress=1&resize=400x300",
         link:"https://chokhonelidze.github.io/mapbox/",
-        about: "This is demo of software MapBox it demonstrates map pin manipulation."
+        about: "This is a demo of software MapBox it demonstrates map's pin manipulation."
 
     },
     {
