@@ -7,26 +7,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My projects</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="mycss.css">
     <script src="nav.js"></script>
 </head>
+
 <body>
     <div class='header'>
     </div>
     <div class='main'>
-    <div class='body'>
-     
-        <div class='centerSlider' id='slider'>
-    </div> 
-    </div>
+        <div class='body'>
+            <div class='centerSlider' id='slider'>
+            </div>
+            <h2>readme and github links </h2>
+            <div style="grid-column:2">
+                <fieldset>
+                    <legend>readme files</legend>
+                    <ul>
+                        <li>
+                            <a href='https://github.com/Chokhonelidze/PacMen/blob/main/README.md'>PacMen</a>
+                        </li>
+                        <li>
+                            <a href='https://github.com/Chokhonelidze/Eyes/blob/master/README.md'>Eyes</a>
+                        </li>
+                        <li>
+                            <a href='https://github.com/Chokhonelidze/mapbox/blob/main/README.md'>Map Project</a>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Github links</legend>
+                    <ul>
+                        <li>
+                            <a href='https://github.com/Chokhonelidze/PacMen'>PacMen</a>
+                        </li>
+                        <li>
+                            <a href='https://github.com/Chokhonelidze/Eyes'>Eyes</a>
+                        </li>
+                        <li>
+                            <a href='https://github.com/Chokhonelidze/mapbox'>Map Project</a>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+
+        </div>
 
 
-<script src='logic.js'></script>
-<script>
-    let elem = document.getElementsByClassName('header')[0];
-    buildNav(elem,"Projects");
-    slider();
-</script>
+        <script src='logic.js'></script>
+        <script>
+            let elem = document.getElementsByClassName('header')[0];
+            buildNav(elem, "Projects");
+            slider();
+        </script>
 </body>
+
 </html>
