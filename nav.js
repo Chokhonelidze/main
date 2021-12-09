@@ -1,5 +1,6 @@
 let pages = {
     "About Me" : "https://chokhonelidze.github.io/main/",
+    "Projects" : "https://chokhonelidze.github.io/main/projects.html",
     "PacMen Arena" : "https://chokhonelidze.github.io/PacMen/",
     "Watching Eyes" : "https://chokhonelidze.github.io/Eyes/",
     "Map project": "https://chokhonelidze.github.io/mapbox/", 

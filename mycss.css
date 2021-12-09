@@ -90,6 +90,9 @@ body {
 #slider .item h2 {
     text-align: center;
 }
+.centerSlider {
+  left:50%;
+}
 
 @media screen and (max-width: 1000px) {
   body {
