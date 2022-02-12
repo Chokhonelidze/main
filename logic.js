@@ -61,7 +61,7 @@ function slider(card){
             });   
         }
         else{
-            if(index%2 == 0){
+            if(index%2 != 0){
                 div.style.left = current.left+"px";
                 current.left = current.left + current.left;
                 div.style.zIndex = current.zIndex;
