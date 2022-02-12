@@ -13,7 +13,6 @@ function buildNav(terget,currentPage){
  nav.classList.add('navbar-light');
  nav.classList.add('bg-light');
  let div = document.createElement('div');
- div.classList.add('navbar-nav');
  let ul = document.createElement('ul');
  ul.classList.add('navbar-nav');
  Object.keys(pages).forEach((page)=>{
