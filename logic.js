@@ -25,7 +25,7 @@ const links = [
         about: "This project lets users enter string and get all possible permutation of characters in string."
     },
     {
-        title:"permutations",
+        title:"TicTacToe",
         img:"imgs/tictactoe.png",
         link:"https://chokhonelidze.github.io/TicTacToe/",
         about: "This is simple TicTacToe game."
