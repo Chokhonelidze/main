@@ -23,6 +23,12 @@ const links = [
         img:"imgs/permutations.png",
         link:"https://chokhonelidze.github.io/permutations/",
         about: "This project lets users enter string and get all possible permutation of characters in string."
+    },
+    {
+        title:"permutations",
+        img:"imgs/tictactoe.png",
+        link:"https://chokhonelidze.github.io/TicTacToe/",
+        about: "This is simple TicTacToe game."
     }
 ]
 var current = {left:-200,right:-200,zIndex:links.length};
