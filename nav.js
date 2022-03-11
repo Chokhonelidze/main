@@ -10,6 +10,7 @@ let pages = {
     },
     'React projects': {
         "TicTacToe"    : "https://chokhonelidze.github.io/TicTacToe/",
+        "BadBank"      : "https://chokhonelidze.github.io/main/pages/BadBank.html"
     }
    
 }
