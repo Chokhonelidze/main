@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "YujiMai";
+    src: url(YujiMai-Regular.ttf);
+}
+body {
+    display:grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    grid-template-rows: 200px 1000px;
+    font-family:'YujiMai';
+}
+.header{
+    grid-column: 2;
+    grid-row: 1;
+}
+.about{
+    grid-column: 1;
+    grid-row: 1;
+}
+.about img{
+    width:50px;
+    height:50px;
+}
+.main{
+    grid-column: 1/4;
+    grid-row: 2;
+}
+.hero {
+    position:relative;
+    background-color:#659EC7;
+    height:100px;
+    width:200px;
+    padding:5px;
+    border-radius: 10%;
+}
+.hero:after {
+    z-index: -1;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    content:'';
+    width: 0;
+    height: 0;
+    border-top: solid 10px #e15915;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+}
+@media screen and (max-width: 1000px) {
+    body {
+        grid-template-rows: 250px 1000px;
+    }
+}
