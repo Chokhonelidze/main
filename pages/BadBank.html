@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./mycss.css" />
   </head>
   <body>
-    <div class="header">Bad Bank</div>
+    <div class="header"></div>
     <div class="about">
       <a href="https://github.com/Chokhonelidze/BadBank" target="_blank">
         <img src="https://www.logo.wine/a/logo/GitHub/GitHub-Logo.wine.svg" />
@@ -23,5 +23,9 @@
     <div class="main">
         <a href="https://chokhonelidze.github.io/BadBank/" target="_blank">Bad Bank</a>
     </div>
+    <script>
+        let elem = document.getElementsByClassName('header')[0];
+        buildNav(elem,"BadBank");
+      </script>
   </body>
 </html>
