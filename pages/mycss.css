@@ -1,6 +1,6 @@
 @font-face {
     font-family: "YujiMai";
-    src: url(YujiMai-Regular.ttf);
+    src: url(../YujiMai-Regular.ttf);
 }
 body {
     display:grid;
