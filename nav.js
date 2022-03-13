@@ -11,6 +11,7 @@ let pages = {
     'React projects': {
         "TicTacToe"    : "https://chokhonelidze.github.io/TicTacToe/",
         "BadBank"      : "https://chokhonelidze.github.io/main/pages/BadBank.html",
+        "ShoppingCard" : "https://chokhonelidze.github.io/main/pages/shoppingcard.html",
         "ToDoList"     : "https://chokhonelidze.github.io/reactTodoList/"
 
     }
