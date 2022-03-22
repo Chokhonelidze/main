@@ -21,7 +21,7 @@ body {
     height:50px;
 }
 .main{
-    grid-column: 1/4;
+    grid-column: 2/3;
     grid-row: 2;
 }
 .hero {
@@ -44,6 +44,10 @@ body {
     border-top: solid 10px #e15915;
     border-left: solid 10px transparent;
     border-right: solid 10px transparent;
+}
+.image {
+    border-style: groove;
+    border-color: blue;
 }
 @media screen and (max-width: 1000px) {
     body {
