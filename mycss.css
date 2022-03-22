@@ -114,3 +114,7 @@ body {
     grid-row: 4;
   }
 }
+
+.dropdown {
+  z-index: 100;
+}
