@@ -66,6 +66,7 @@ function buildNav(terget,currentPage){
              }
              let a = document.createElement('a');
              a.classList.add('nav-link');
+             a.style.paddingLeft='10px';
              a.href = arr[item];
              a.innerHTML = item;
              li.appendChild(a);
