@@ -39,7 +39,7 @@ const links = [
     {
         title:"shopping cart",
         img:"imgs/ShoppingCart.png",
-        link:"https://chokhonelidze.github.io/main/pages/shoppingcard.html",
+        link:"https://chokhonelidze.github.io/main/pages/shoppingcart.html",
         about: "this is a shopping cart software demo."
     }
 ]
