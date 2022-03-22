@@ -146,3 +146,6 @@ body {
 .dropdown {
   z-index: 100;
 }
+.navbar {
+  z-index: 100;
+}
