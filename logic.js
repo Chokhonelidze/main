@@ -28,13 +28,27 @@ const links = [
         title:"TicTacToe",
         img:"imgs/tictactoe.png",
         link:"https://chokhonelidze.github.io/TicTacToe/",
-        about: "This is simple TicTacToe game."
+        about: "This is a simple TicTacToe game."
+    },
+    {
+        title:"Bad Bank",
+        img:"imgs/badbank.png",
+        link:"https://chokhonelidze.github.io/main/pages/BadBank.html",
+        about: "this is a banking simulator software."
+    },
+    {
+        title:"shopping cart",
+        img:"imgs/ShoppingCart.png",
+        link:"https://chokhonelidze.github.io/main/pages/shoppingcard.html",
+        about: "this is a shopping cart software demo."
     }
 ]
 var current = {left:-200,right:-200,zIndex:links.length};
 function slider(card){
     let target = document.getElementById('slider');
     let active = card?card:Math.floor(Math.random()*links.length);
+    let transformLeft = 0.9;
+    let transformRight = 0.9;
     links.forEach((item,index)=>{
         let div = document.createElement('div');
         div.classList.add('item');
@@ -62,20 +76,36 @@ function slider(card){
         }
         else{
             if(index%2 != 0){
+                div.style.transform = 'scale('+transformLeft+')';
                 div.style.left = current.left+"px";
-                current.left = current.left + current.left;
+                if(transformLeft < 1){
+                    current.left = current.left - 200;
+                }
+                else{
+                    current.left = current.left + current.left;
+                }
                 div.style.zIndex = current.zIndex;
                 current.zIndex = current.zIndex -1;
                 div.index = index;
                 div.addEventListener('click',flipCard);
+                transformLeft -= 0.1;
             }
             else{
+                div.style.transform = 'scale('+transformRight+')';
                 div.style.right = current.right+"px";
+                if(transformRight < 1){
+                }
+                else{
+                    current.right = current.right + current.right;
+                }
+                console.log('right',current.right);
+                console.log('transformRight',transformRight);
                 current.right = current.right + current.right;
                 div.style.zIndex = current.zIndex;
                 current.zIndex = current.zIndex -1;
                 div.index = index;
                 div.addEventListener('click',flipCard);
+                transformRight -= 0.1;
             }
         }
         target.appendChild(div);
