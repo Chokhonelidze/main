@@ -35,6 +35,7 @@ function buildNav(terget,currentPage){
  nav.classList.add('navbar-expand-lg');
  nav.classList.add('navbar-light');
  nav.classList.add('bg-light');
+ nav.style.zIndex = 100;
  let div = document.createElement('div');
  let ul = document.createElement('ul');
  ul.classList.add('navbar-nav');
