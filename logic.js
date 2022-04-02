@@ -34,13 +34,13 @@ const links = [
         title:"Bad Bank",
         img:"imgs/badbank.png",
         link:"https://chokhonelidze.github.io/main/pages/BadBank.html",
-        about: "this is a banking simulator software."
+        about: "This is a banking simulator software."
     },
     {
-        title:"shopping cart",
+        title:"Shopping Cart",
         img:"imgs/ShoppingCart.png",
         link:"https://chokhonelidze.github.io/main/pages/shoppingcart.html",
-        about: "this is a shopping cart software demo."
+        about: "This is a shopping cart software demo."
     }
 ]
 var current = {left:-200,right:-200,zIndex:links.length};
