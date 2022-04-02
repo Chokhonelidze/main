@@ -9,7 +9,7 @@ let pages = {
         "PacMen Arena" : "https://chokhonelidze.github.io/PacMen/",
     },
     'React projects': {
-        "TicTacToe"    : "https://chokhonelidze.github.io/TicTacToe/",
+        "TicTacToe"    : "https://chokhonelidze.github.io/main/pages/AI_tic_tac_toe.html",
         "BadBank"      : "https://chokhonelidze.github.io/main/pages/BadBank.html",
         "ShoppingCart" : "https://chokhonelidze.github.io/main/pages/shoppingcart.html",
         "ToDoList"     : "https://chokhonelidze.github.io/reactTodoList/"

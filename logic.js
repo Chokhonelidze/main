@@ -27,8 +27,8 @@ const links = [
     {
         title:"TicTacToe",
         img:"imgs/tictactoe.png",
-        link:"https://chokhonelidze.github.io/TicTacToe/",
-        about: "This is a simple TicTacToe game."
+        link:"https://chokhonelidze.github.io/main/pages/AI_tic_tac_toe.html",
+        about: "AI Tic Tac Toe Game."
     },
     {
         title:"Bad Bank",
