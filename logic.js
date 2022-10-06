@@ -106,12 +106,13 @@ function slider(card){
                 }
                 console.log('right',current.right);
                 console.log('transformRight',transformRight);
-                current.right = current.right - current.right;
+                current.right = current.right + current.right/2;
                 div.style.zIndex = current.zIndex;
                 current.zIndex = current.zIndex -1;
                 div.index = index;
                 div.addEventListener('click',flipCard);
                 transformRight -= 0.1;
+
             }
         }
         target.appendChild(div);
