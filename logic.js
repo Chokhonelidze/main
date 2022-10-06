@@ -106,7 +106,7 @@ function slider(card){
                 }
                 console.log('right',current.right);
                 console.log('transformRight',transformRight);
-                current.right = current.right + current.right;
+                current.right = current.right - current.right;
                 div.style.zIndex = current.zIndex;
                 current.zIndex = current.zIndex -1;
                 div.index = index;
