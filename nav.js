@@ -13,7 +13,7 @@ let pages = {
         "BadBank"      : "https://chokhonelidze.github.io/main/pages/BadBank.html",
         "ShoppingCart" : "https://chokhonelidze.github.io/main/pages/shoppingcart.html",
         "ToDoList"     : "https://chokhonelidze.github.io/reactTodoList/",
-        'Pokemons'     : "https://chokhonelidze.github.io/pokemon"
+        'Pokemons'     : "https://chokhonelidze.github.io/main/pages/pokemons.html"
 
     }
    
