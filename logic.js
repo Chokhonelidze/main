@@ -41,6 +41,12 @@ const links = [
         img:"imgs/ShoppingCart.png",
         link:"https://chokhonelidze.github.io/main/pages/shoppingcart.html",
         about: "This is a shopping cart software demo."
+    },
+    {
+        title:"Pokemons",
+        img:"imgs/pokemon.png",
+        link:"https://chokhonelidze.github.io/main/pages/pokemons.html",
+        about: "This is a pokemon software."
     }
 ]
 var current = {left:-200,right:-200,zIndex:links.length};
