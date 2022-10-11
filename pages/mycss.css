@@ -24,6 +24,9 @@ body {
     grid-column: 2/3;
     grid-row: 2;
 }
+.main_full{
+    grid-column: 1/4;
+}
 .hero {
     position:relative;
     background-color:#659EC7;
