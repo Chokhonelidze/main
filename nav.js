@@ -15,6 +15,10 @@ let pages = {
         "ToDoList"     : "https://chokhonelidze.github.io/reactTodoList/",
         'Pokemons'     : "https://chokhonelidze.github.io/main/pages/pokemons.html"
 
+    },
+    'Arduino Projects' : {
+        "ArduinoLights":"https://chokhonelidze.github.io/main/pages/Arduino_lights.html"
+
     }
    
 }
