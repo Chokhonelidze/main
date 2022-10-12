@@ -1,6 +1,6 @@
 //const server = process.env.REACT_APP_SERVER ? process.env.REACT_APP_SERVER :"http://localhost:4000/graphql";
-//const server = 'https://georgesapollo.herokuapp.com/';
-const server ='http://localhost:4002';
+const server = 'https://georgesapollo.herokuapp.com/';
+//const server ='http://localhost:4002';
 
 /**
  * @description function is used to get ratings from database.
