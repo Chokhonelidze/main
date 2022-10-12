@@ -1,5 +1,7 @@
 //const server = process.env.REACT_APP_SERVER ? process.env.REACT_APP_SERVER :"http://localhost:4000/graphql";
 const server = 'https://georgesapollo.herokuapp.com/';
+//const server ='http://localhost:4002';
+
 /**
  * @description function is used to get ratings from database.
  * @param {String} q 
@@ -22,7 +24,7 @@ export async function query(q,values,callback) {
         .then((res) => res.json())
         .then((info, err) => {
              if(!err) {
-               callback(info?.data);
+               callback(info?.data,values);
              }
              else {
                  console.log(err);
