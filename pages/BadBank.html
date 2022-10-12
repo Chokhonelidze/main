@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./mycss.css" />
+    <link rel="stylesheet" href="../functions/ratings.css" />
   </head>
   <body>
     <div class="header"></div>
@@ -24,6 +25,12 @@
       <div>
         <fieldset>
           <legend>Bad Bank</legend>
+          <script src="../functions/ratingScripts.js" type="module"></script>
+         <script type="module" >
+          import {getRating} from '../functions/ratings.js';
+          getRating('badbank')
+         </script>
+         <div id="rating"></div>
           <p>
             This is a React application demo, which allows users to open new
             users' deposit and withdraw fake money.
