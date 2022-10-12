@@ -10,7 +10,7 @@ async function getRating(name) {
         }
     }`;
     const values = {
-          "type": name
+          "input":{"type": name}
       };
     query(q,values,build);
 }
@@ -19,7 +19,30 @@ async function getRating(name) {
 function build(data,values){
     let value = values.type;
     if(data?.getRating) {
-        console.log("here");
+        let rating = data.getRating.rating;
+        let output = '';
+        console.log(rating)
+        for(let i=1; i<=5 ;i++){
+            let id='r'+i;
+            if(i <= rating) {
+             
+                output+= `<label for=${id} class="rated"><input type="checkbox"   id="${id}" /></label>`;
+            }
+            else{
+                output+= `<label for=${id} class="check_disabled"><input type="checkbox"   id="${id}" /></label>`;
+            }
+        }
+       
+        let parent = `
+        <div class="container">
+        <div class="smileybox">
+        ${output}
+        </div>
+        </div>
+        `;
+        let obj = document.getElementById('rating');
+        obj.innerHTML = parent;
+          
     }
     else{
        let obj = document.getElementById('rating');

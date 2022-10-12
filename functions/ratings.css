@@ -30,6 +30,15 @@ label{
 	bottom:0;
     line-height: 50px;	
 }
+.check_disabled::before, .rated::after{
+	content:'\2605';
+	font-size:60px;
+	position:absolute;
+	color:#777;
+	left:0;
+	bottom:0;
+    line-height: 50px;	
+}
 .rated::after{
 	color:orange;
 }

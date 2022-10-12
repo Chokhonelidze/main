@@ -24,7 +24,7 @@ export async function query(q,values,callback) {
         .then((res) => res.json())
         .then((info, err) => {
              if(!err) {
-               callback(info.data,values.input);
+               callback(info,values);
              }
              else {
                  console.log(err);
