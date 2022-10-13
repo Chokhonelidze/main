@@ -17,7 +17,8 @@ let pages = {
 
     },
     'Arduino Projects' : {
-        "ArduinoLights":"https://chokhonelidze.github.io/main/pages/Arduino_lights.html"
+        "ArduinoLights":"https://chokhonelidze.github.io/main/pages/Arduino_lights.html",
+        "arduinoWatering":"https://chokhonelidze.github.io/main/pages/Arduino_watering.html"
 
     }
    
